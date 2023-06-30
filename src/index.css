@@ -1,13 +1,94 @@
+/* App.css */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #FEFF86;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.weatherapp {
+  color: #19A7CE;
+  font-size: 80px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.textbox {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  background-color: #B0DAFF;
+  width: 300px;
+  height: 20px;
+  font-size: 30px;
+  border-radius: 30px;
+  color: #000;
+}
+
+.Submit {
+  margin-top: 1%;
+  background-color: #19A7CE;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+
+.Submit:hover {
+  box-shadow: 0 0 1px 1px #0097cd;
+}
+
+.weather1 {
+  color: #146C94;
+  font-size: 30px;
+}
+
+.deg {
+  color: #146b94;
+  font-size: 20px;
+}
+
+.weather {
+  color: #00c4ff;
+  font-size: 35px;
+}
+
+.mps {
+  font-size: 15px;
+  color: #146b94;
+}
+
+.display {
+  height: 150px;
+}
+
+.boxbase {
+  background-color: #b0daff;
+  width: 300px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 1px;
+  border-radius: 20px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
 }
